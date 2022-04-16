@@ -13,24 +13,57 @@ img{
 
 /* Section one, the header */
 
-.header{
+.headlogo{
     display: flex;
     background-color: #1F2937;
     color: white;
+    justify-content: space-between;
     align-items: center;
-    flex-direction: column;
-    
-    
+    padding-bottom: 64px;
 }
 
-.headlogo{
+.logo, .links{
+    margin: 16px 15%;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.links{
     display: flex;
-
+    font-size: 24px;
+    justify-content: space-between;
+    gap: 24px;
 }
 
-.logo{
-    margin-left: auto;
+ul{
+    gap: 12px;
+    list-style-type: none;
 }
+
+a{
+    gap: 12px;
+    text-decoration: none;
+    color: white;
+}
+
+/*Section one and a half, let's call it*/
+
+.headcontent{
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+    padding-bottom: 64px;
+    gap: 50px;
+}
+
+.headwords{
+    max-width: 500px;
+    margin-bottom: 12px;
+}
+
+
+
 
 /* Section two, the information */
 
@@ -132,5 +165,4 @@ button {
 button:hover{
     color:#3882F6;
     background-color: white;
-    
 }
